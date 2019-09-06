@@ -3,7 +3,7 @@ Using pmcenter for Telegram in docker. (Telegram PM chat bot)
 
 Source code by [Elepover(GitHub)](https://github.com/Elepover/pmcenter). 
 
-You can use the [official docker image](https://github.com/Elepover/pmcenter#use-docker) or this bot.
+You can also use the [official docker image](https://github.com/Elepover/pmcenter#use-docker).
 
 ## configuration
 
