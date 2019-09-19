@@ -10,7 +10,8 @@ RUN apk add --no-cache --update git \
   && wget https://github.com/Elepover/pmcenter/raw/master/locales/pmcenter_locale_en.json -O /pmcbuild/pmcenter_locale.json
 
 FROM microsoft/dotnet:2.1-runtime-alpine
-LABEL maintainer "dtcokr <dtcokr@outlook.com>"
+LABEL maintainer="dtcokr <dtcokr@outlook.com>" \
+  org.label-schema.vcs-url="https://github.com/dtcokr/docker-pmcenter"
 
 COPY --from=Builder /pmcbuild/* /pmcenter/
 
