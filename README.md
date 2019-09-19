@@ -1,4 +1,8 @@
 # docker-pmcenter
+![Docker Pulls](https://img.shields.io/docker/pulls/dtcokr/pmcenter)
+[![](https://images.microbadger.com/badges/image/dtcokr/pmcenter.svg)](https://microbadger.com/images/dtcokr/pmcenter "Get your own image badge on microbadger.com")
+![GitHub last commit](https://img.shields.io/github/last-commit/dtcokr/docker-pmcenter)
+
 Using pmcenter for Telegram in docker. (Telegram PM chat bot)
 
 Source code by [Elepover(GitHub)](https://github.com/Elepover/pmcenter). 
